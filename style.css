@@ -1,0 +1,166 @@
+        
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        body > img{
+            z-index: -1;
+            filter: blur(3px);
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        fieldset{
+            margin-top:40px;
+            margin-bottom: 40px;
+            padding: 50px;
+            width: 75%;
+            margin-left: 8.5%;
+            background: rgba(12, 9, 9, 0.5);
+
+        }
+
+        legend,label{
+            color: rgb(204, 106, 50);
+        }
+
+        legend{
+            font-size: 40px;
+        }
+
+        label{
+            font-size: 20px;
+            padding-right: 30px;
+        }
+
+        input[type="number"],
+        input[type="email"],
+        input[type="text"],
+        input[type="password"],
+        input[type="file"]{
+            background: none;
+            border: 3px solid rgb(97, 233, 165);
+            border-radius: 10px;
+            background-color: white;
+            width: 180px;
+            transition: 0.5s;
+            text-align: center;
+
+        }
+
+        input[type="number"]:focus,
+        input[type="email"]:focus,
+        input[type="text"]:focus,
+        input[type="password"]:focus{
+            width: 222px;
+            border: 3px solid  rgb(204, 106, 50);
+
+
+        }
+
+        input[type=number]::-moz-inner-spin-button, 
+        input[type=number]::-moz-outer-spin-button { 
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0; 
+        }
+
+        input[type="submit"],
+        input[type="reset"]{
+            background-color: white;
+            color: black;
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+            border-radius: 20px;
+            transition: 0.5s;
+            margin-left: 20px;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover{
+            background-color: rgb(204, 106, 50);
+            color: white;
+            cursor: pointer;
+        }
+
+        .row{
+            padding-top:20px;
+            padding-bottom: 20px;
+        }
+        .container{
+            position: relative;
+        }
+
+        input[type="number"],
+        input[type="email"],
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"],
+        input[type="file"]{
+            position: absolute;
+            left: 50%;
+            height: 20px;
+        }
+
+        label{
+            position: absolute;
+            left: 35%;
+        }
+
+        input[type="reset"]{
+            position: absolute;
+            left: 35%;
+        }
+        input[type="submit"]{
+            height: 40px;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(231, 231, 231);
+        }
+        span{
+            color: rgb(204, 106, 50);
+        }
+
+        #err1,
+        #err2,
+        #err3,
+        #err5,
+        #err4,
+        #err6,
+        #err7{
+            position: absolute;
+            left: 70%;
+        }
+
+        input[type="file"] {
+            margin-left: 103px;
+            width: 250px;
+        }
+
+        row #error{
+            position: absolute;
+            left: 70%;
+
+        }
+
+        .register{
+            margin-left: 40%;
+            font-size: 20px;
+        }
+
+
+        
+
+
+
+
+
